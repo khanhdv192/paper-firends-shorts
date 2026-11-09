@@ -1,0 +1,22 @@
+name: Verify Short videos
+
+on:
+  schedule:
+    - cron: "47 4 * * *"        # every day 11:47 VN, before the 19:00 posts
+  push:
+    paths: ["videos/**", "posts.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Compare every video with its recorded SHA-256 (pinned commit, main, checkout)
+        run: node scripts/verify_media.mjs

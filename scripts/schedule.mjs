@@ -10,6 +10,7 @@
 // AI disclosure: Instagram and TikTok get Buffer's isAiGenerated flag. Buffer has no such flag for Facebook,
 // so Facebook captions end with config.facebook_ai_note.
 import fs from "node:fs";
+import crypto from "node:crypto";
 
 const API = "https://api.buffer.com";
 const KEY = process.env.BUFFER_API_KEY;
@@ -42,7 +43,17 @@ async function channels() {
   return { org, orgs, channels };
 }
 
-function videoUrl(p) { return cfg.repo_raw_base + p.video; }
+// Pinned to the commit recorded in posts.json (media_commit): that URL can never serve different bytes. Before a post is
+// created the file is downloaded and checked against its recorded sha256.
+function videoUrl(p) {
+  if (!p.media_commit || !p.sha256) throw new Error(`${p.key}: media_commit / sha256 missing in posts.json`);
+  return `https://raw.githubusercontent.com/khanhdv192/paper-firends-shorts/${p.media_commit}/${p.video}`;
+}
+async function verifyVideo(p) {
+  const r = await fetch(videoUrl(p)); if (!r.ok) throw new Error(`${p.key}: video HTTP ${r.status}`);
+  const h = crypto.createHash("sha256").update(Buffer.from(await r.arrayBuffer())).digest("hex");
+  if (h !== p.sha256) throw new Error(`${p.key}: video sha256 ${h.slice(0, 12)} != recorded ${p.sha256.slice(0, 12)}, refusing to schedule`);
+}
 
 function durationGuessMs(p) { return p.duration_ms || 20000; }
 
@@ -78,7 +89,7 @@ async function main() {
   const now = Date.now(), until = now + cfg.window_days * 864e5, lead = cfg.min_lead_minutes * 6e4;
   const due = posts.filter((p) => (!ONLY || p.key === ONLY) && Date.parse(p.publish_at) > now + lead && (ONLY || Date.parse(p.publish_at) <= until));
   if (!due.length) { console.log("nothing due in the window"); return; }
-  for (const p of due) if (!fs.existsSync(p.video)) throw new Error(`missing ${p.video}`);
+  for (const p of due) { if (!fs.existsSync(p.video)) throw new Error(`missing ${p.video}`); await verifyVideo(p); }
   const ch = MODE === "schedule" ? (await channels()).channels : [];
   let made = 0, failed = 0;
   for (const p of due) {
