@@ -52,8 +52,8 @@ function input(p, service, channelId) {
     service === "instagram" ? { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } :
     service === "tiktok" ? { tiktok: { isAiGenerated: true } } :
     service === "facebook" ? { facebook: { type: "reel" } } : undefined;
-  const video = { url: videoUrl(p) };
-  if (service !== "facebook") video.metadata = { thumbnailOffset: Math.round(durationGuessMs(p) * (cfg.thumbnail_offset_fraction ?? 0.35)) };
+  const video = { url: videoUrl(p), metadata: { title: p.video_title || p.title } };  // title = Facebook "Reel Title"
+  if (service !== "facebook") video.metadata.thumbnailOffset = ( p.thumbnail_offset_ms ?? Math.round(durationGuessMs(p) * (cfg.thumbnail_offset_fraction ?? 0.35)));
   return {
     text, channelId, schedulingType: "automatic", mode: "customScheduled",
     dueAt: new Date(p.publish_at).toISOString(), assets: [{ video }], aiAssisted: true, ...(metadata ? { metadata } : {}),
