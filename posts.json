@@ -15,7 +15,8 @@
     "facebook"
    ],
    "duration_ms": 23291,
-   "video_title": "Meet the Paper Friends 👋 | Kids Songs"
+   "video_title": "Meet the Paper Friends 👋 | Kids Songs",
+   "thumbnail_offset_ms": 8000
   },
   {
    "key": "paper_party",
@@ -31,7 +32,8 @@
     "facebook"
    ],
    "duration_ms": 17750,
-   "video_title": "Paper Party! 🎉 | Kids Songs"
+   "video_title": "Paper Party! 🎉 | Kids Songs",
+   "thumbnail_offset_ms": 6000
   },
   {
    "key": "row_row",
@@ -47,7 +49,8 @@
     "facebook"
    ],
    "duration_ms": 18650,
-   "video_title": "Row, Row, Row Your Boat ⛵ | Nursery Rhymes"
+   "video_title": "Row, Row, Row Your Boat ⛵ | Nursery Rhymes",
+   "thumbnail_offset_ms": 1000
   },
   {
    "key": "old_macdonald",
@@ -63,7 +66,8 @@
     "facebook"
    ],
    "duration_ms": 22950,
-   "video_title": "Old MacDonald Had a Farm 🚜 | Nursery Rhymes"
+   "video_title": "Old MacDonald Had a Farm 🚜 | Nursery Rhymes",
+   "thumbnail_offset_ms": 17500
   },
   {
    "key": "baa_baa",
@@ -79,7 +83,8 @@
     "facebook"
    ],
    "duration_ms": 19200,
-   "video_title": "Baa, Baa, Black Sheep 🐑 | Nursery Rhymes"
+   "video_title": "Baa, Baa, Black Sheep 🐑 | Nursery Rhymes",
+   "thumbnail_offset_ms": 1000
   },
   {
    "key": "little_leaf",
@@ -95,7 +100,8 @@
     "facebook"
    ],
    "duration_ms": 17200,
-   "video_title": "Thank You, Little Leaf 🍂 | Kids Songs"
+   "video_title": "Thank You, Little Leaf 🍂 | Kids Songs",
+   "thumbnail_offset_ms": 1000
   },
   {
    "key": "mary",
@@ -111,7 +117,8 @@
     "facebook"
    ],
    "duration_ms": 18291,
-   "video_title": "Mary Had a Little Lamb 🐑 | Nursery Rhymes"
+   "video_title": "Mary Had a Little Lamb 🐑 | Nursery Rhymes",
+   "thumbnail_offset_ms": 1000
   },
   {
    "key": "over_river",
