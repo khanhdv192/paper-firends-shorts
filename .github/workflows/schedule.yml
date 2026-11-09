@@ -1,0 +1,47 @@
+name: Schedule Shorts to Buffer
+
+on:
+  schedule:
+    - cron: "17 1 * * *"        # every day 08:17 VN: adds the posts of the next 7 days
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "channels = list accounts · dry-run = show only · schedule = create posts"
+        type: choice
+        options: [dry-run, channels, schedule]
+        default: dry-run
+      only:
+        description: "only this Short key (test), e.g. meet_paper_friends"
+        required: false
+      channels:
+        description: "only these networks, e.g. tiktok,instagram (empty = all 3)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency: buffer-schedule
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Schedule
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          MODE: ${{ inputs.mode || 'schedule' }}
+          ONLY: ${{ inputs.only }}
+          CHANNELS: ${{ inputs.channels }}
+        run: node scripts/schedule.mjs
+      - name: Save what was scheduled
+        if: always()
+        run: |
+          if ! git diff --quiet state/; then
+            git config user.name "paper-friends-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state/ && git commit -m "Scheduled posts: update state" && git push
+          fi
