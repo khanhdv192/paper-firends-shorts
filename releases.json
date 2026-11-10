@@ -1,33 +1,95 @@
 {
- "_note": "New-video posts: thumbnail image + YouTube link (never the full video). publish_at = YouTube go-live + 10 min. image pinned to media_commit + sha256.",
+ "_note": "New-video posts: thumbnail image + YouTube link (never the full video), at the exact YouTube go-live time. manual=true: posted by hand with shareNow (the workflow skips them). Images pinned to media_commit + sha256.",
  "posts": [
   {
-   "key": "rel_launch",
+   "key": "rel_teaser",
    "kind": "release",
-   "title": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶",
-   "publish_at": "2026-11-10T18:40:00+07:00",
+   "manual": true,
+   "title": "⏰ 6 hours to go! Paper Friends opens on YouTube today 🎉",
+   "publish_at": "2026-11-10T12:00:00+07:00",
    "youtube": [
-    "https://youtu.be/7Jvwwh1TTYk",
-    "https://youtu.be/t0NNv75wgs4",
-    "https://youtu.be/m4RBMcMkQSM"
+    "https://www.youtube.com/@paperfriendssongs"
    ],
-   "image": "images/PaperParty.jpg",
-   "alt": "Paper Friends dancing at the Paper Party",
-   "sha256": "4dc9a3cdb282706a6f257f64d9320879058753058c7a1b1f3ee94c75688e5e76",
-   "caption": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
-   "caption_facebook": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\nSing along with your little one!\n▶️ Paper Party! 🎉 Dance Song for Kids: https://youtu.be/7Jvwwh1TTYk\n▶️ Twinkle Twinkle Little Star ⭐ Paper Rocket Ride: https://youtu.be/t0NNv75wgs4\n▶️ Old MacDonald Had a Farm 🚜 Tractor Ride: https://youtu.be/m4RBMcMkQSM\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "image": "images/channel_banner.jpg",
+   "alt": "The ten Paper Friends under a string of paper flags",
+   "sha256": "a745f6e106e497cfde755769a25fb9ba7472e34f4f05dbdcdaa2d6acc679556c",
+   "media_commit": "c89afc80c325261d5171013a685b52da87439d53",
    "channels": [
     "tiktok",
     "instagram",
     "facebook"
    ],
-   "media_commit": "1de70c7098c83ceb75da4f412d949ceccd50df48"
+   "caption": "⏰ 6 hours to go! Paper Friends opens on YouTube today 🎉\n\nOur very first sing-along videos go live at 6 PM Vietnam time (6 AM ET): Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\nFind us on YouTube: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "⏰ 6 hours to go! Paper Friends opens on YouTube today 🎉\n\nOur very first sing-along videos go live at 6 PM Vietnam time (6 AM ET): Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\n▶️ Our YouTube channel: https://www.youtube.com/@paperfriendssongs\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends"
+  },
+  {
+   "key": "rel_PaperParty",
+   "kind": "release",
+   "manual": true,
+   "title": "🎉 Our very first video is live! Paper Party! 🎉 Dance Song for Kids",
+   "publish_at": "2026-11-10T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/7Jvwwh1TTYk"
+   ],
+   "image": "images/PaperParty.jpg",
+   "alt": "Paper Friends dancing at the Paper Party",
+   "sha256": "4dc9a3cdb282706a6f257f64d9320879058753058c7a1b1f3ee94c75688e5e76",
+   "media_commit": "1de70c7098c83ceb75da4f412d949ceccd50df48",
+   "caption": "🎉 Our very first video is live! Paper Party! 🎉 Dance Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎉 Our very first video is live! Paper Party! 🎉 Dance Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/7Jvwwh1TTYk\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_TwinkleTwinkle",
+   "kind": "release",
+   "manual": true,
+   "title": "🎶 New on YouTube: Twinkle Twinkle Little Star ⭐ Paper Rocket Ride",
+   "publish_at": "2026-11-10T18:15:00+07:00",
+   "youtube": [
+    "https://youtu.be/t0NNv75wgs4"
+   ],
+   "image": "images/TwinkleTwinkle.jpg",
+   "alt": "Twinkle Twinkle Little Star ⭐ Paper Rocket Ride thumbnail, Paper Friends",
+   "sha256": "e112f8b905ab729072c2308c0cb0d261d57a48e4c956d9df67b9458bdc7cb2d1",
+   "media_commit": "f131e4808bd3bac54c088e8dd4caaf5306278a27",
+   "caption": "🎶 New on YouTube: Twinkle Twinkle Little Star ⭐ Paper Rocket Ride\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Twinkle Twinkle Little Star ⭐ Paper Rocket Ride\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/t0NNv75wgs4\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_OldMacDonald",
+   "kind": "release",
+   "manual": true,
+   "title": "🎶 New on YouTube: Old MacDonald Had a Farm 🚜 Tractor Ride",
+   "publish_at": "2026-11-10T18:30:00+07:00",
+   "youtube": [
+    "https://youtu.be/m4RBMcMkQSM"
+   ],
+   "image": "images/OldMacDonald.jpg",
+   "alt": "Old MacDonald Had a Farm 🚜 Tractor Ride thumbnail, Paper Friends",
+   "sha256": "1799d0e76b30c7f47dfc00734ea2f7b2494725037cf58ec1357f71ad74513a5d",
+   "media_commit": "f131e4808bd3bac54c088e8dd4caaf5306278a27",
+   "caption": "🎶 New on YouTube: Old MacDonald Had a Farm 🚜 Tractor Ride\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Old MacDonald Had a Farm 🚜 Tractor Ride\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/m4RBMcMkQSM\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
   },
   {
    "key": "rel_RowRowRowYourBoat",
    "kind": "release",
    "title": "🎶 New on YouTube: Row, Row, Row Your Boat ⛵ River Ride",
-   "publish_at": "2026-11-11T18:10:00+07:00",
+   "publish_at": "2026-11-11T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/VlYaKXwVzX4"
    ],
@@ -47,7 +109,7 @@
    "key": "rel_ABCSong",
    "kind": "release",
    "title": "🎶 New on YouTube: ABC Song 🚂 Alphabet Train",
-   "publish_at": "2026-11-12T18:10:00+07:00",
+   "publish_at": "2026-11-12T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/0F5b2x_0sIc"
    ],
@@ -67,7 +129,7 @@
    "key": "rel_OverTheRiver",
    "kind": "release",
    "title": "🎶 New on YouTube: Over the River and Through the Wood 🥧 Thanksgiving Song",
-   "publish_at": "2026-11-13T18:10:00+07:00",
+   "publish_at": "2026-11-13T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/TDC4y4FIQCA"
    ],
@@ -87,7 +149,7 @@
    "key": "rel_BaaBaaBlackSheep",
    "kind": "release",
    "title": "🎶 New on YouTube: Baa, Baa, Black Sheep 🐑 Wool Hill",
-   "publish_at": "2026-11-14T18:10:00+07:00",
+   "publish_at": "2026-11-14T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/wFT2tZTeGd4"
    ],
@@ -107,7 +169,7 @@
    "key": "rel_ThankYouLittleLeaf",
    "kind": "release",
    "title": "🎶 New on YouTube: Thank You, Little Leaf 🍂 Thankful Song for Kids",
-   "publish_at": "2026-11-15T18:10:00+07:00",
+   "publish_at": "2026-11-15T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/RyIxbChw9Yw"
    ],
@@ -127,7 +189,7 @@
    "key": "rel_MaryHadALittleLamb",
    "kind": "release",
    "title": "🎶 New on YouTube: Mary Had a Little Lamb 🐑 Lamb at School",
-   "publish_at": "2026-11-16T18:10:00+07:00",
+   "publish_at": "2026-11-16T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/HgR6HTtXg4s"
    ],
@@ -147,7 +209,7 @@
    "key": "rel_WhoGoesHop",
    "kind": "release",
    "title": "🎶 New on YouTube: Who Goes Hop? 🐰 Hop, Stomp & Quack Action Song for Kids",
-   "publish_at": "2026-11-17T18:10:00+07:00",
+   "publish_at": "2026-11-17T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/FXlPaG1Xb5k"
    ],
@@ -167,7 +229,7 @@
    "key": "rel_Bingo",
    "kind": "release",
    "title": "🎶 New on YouTube: Bingo 🐶 Bubble Bath",
-   "publish_at": "2026-11-19T18:10:00+07:00",
+   "publish_at": "2026-11-19T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/sOArz4wZQAw"
    ],
@@ -187,7 +249,7 @@
    "key": "rel_HickoryDickoryDock",
    "kind": "release",
    "title": "🎶 New on YouTube: Hickory Dickory Dock 🐭 Cuckoo Clock",
-   "publish_at": "2026-11-21T18:10:00+07:00",
+   "publish_at": "2026-11-21T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/XD8rw2xrWdc"
    ],
@@ -207,7 +269,7 @@
    "key": "rel_GoodnightPaperFriends",
    "kind": "release",
    "title": "🎶 New on YouTube: Goodnight, Paper Friends 🌙 Bedtime Lullaby for Kids",
-   "publish_at": "2026-11-24T18:10:00+07:00",
+   "publish_at": "2026-11-24T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/HC_M-OFkKQg"
    ],
@@ -227,7 +289,7 @@
    "key": "rel_PaperCake",
    "kind": "release",
    "title": "🎶 New on YouTube: Paper Cake 🎂 Clap Along Baking Song for Kids",
-   "publish_at": "2026-11-26T18:10:00+07:00",
+   "publish_at": "2026-11-26T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/kDXVJpruuZM"
    ],
@@ -247,7 +309,7 @@
    "key": "rel_PaperFriends_NurseryRhymes_1",
    "kind": "release",
    "title": "🎶 New on YouTube: Paper Friends Nursery Rhymes #1 🎶 21 Minutes of Kids Songs",
-   "publish_at": "2026-11-28T18:10:00+07:00",
+   "publish_at": "2026-11-28T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/mnzQgs7r_Ug"
    ],
@@ -267,7 +329,7 @@
    "key": "rel_SnowStompDance",
    "kind": "release",
    "title": "🎶 New on YouTube: Snow Stomp Dance ❄️ Winter Dance Song for Kids",
-   "publish_at": "2026-12-01T18:10:00+07:00",
+   "publish_at": "2026-12-01T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/dHV3vmBGehQ"
    ],
@@ -287,7 +349,7 @@
    "key": "rel_PaperSleighRide",
    "kind": "release",
    "title": "🎶 New on YouTube: Paper Sleigh Ride 🛷 Christmas Sleigh Song for Kids",
-   "publish_at": "2026-12-03T18:10:00+07:00",
+   "publish_at": "2026-12-03T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/piMVDilIACk"
    ],
@@ -307,7 +369,7 @@
    "key": "rel_LittleLunasLantern",
    "kind": "release",
    "title": "🎶 New on YouTube: Little Luna's Lantern 🌙 Bedtime Song for Kids",
-   "publish_at": "2026-12-05T18:10:00+07:00",
+   "publish_at": "2026-12-05T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/JsfUhqlQ8NI"
    ],
@@ -327,7 +389,7 @@
    "key": "rel_PaperSnowflakes",
    "kind": "release",
    "title": "🎶 New on YouTube: Paper Snowflakes ❄️ Fold, Snip & Count Winter Song for Kids",
-   "publish_at": "2026-12-08T18:10:00+07:00",
+   "publish_at": "2026-12-08T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/01jJZVOvj10"
    ],
@@ -347,7 +409,7 @@
    "key": "rel_PaperHollyParty",
    "kind": "release",
    "title": "🎶 New on YouTube: Paper Holly Party 🎄 Christmas Decorating Song for Kids",
-   "publish_at": "2026-12-10T18:10:00+07:00",
+   "publish_at": "2026-12-10T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/DOQ8qTkqrYY"
    ],
@@ -367,7 +429,7 @@
    "key": "rel_HighOnTheRooftop",
    "kind": "release",
    "title": "🎶 New on YouTube: High on the Rooftop 🎅 Santa Christmas Song for Kids",
-   "publish_at": "2026-12-12T18:10:00+07:00",
+   "publish_at": "2026-12-12T18:00:00+07:00",
    "youtube": [
     "https://youtu.be/Wdc9nm79t0A"
    ],
