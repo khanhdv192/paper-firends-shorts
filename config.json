@@ -5,5 +5,20 @@
  "organization": "",
  "facebook_ai_note": "🎵 Song & animation made with AI.",
  "thumbnail_offset_fraction": 0.35,
- "_window_note": "Buffer free plan: 10 queued posts per channel. 5 days = 5 Shorts + at most 5 release posts."
+ "_window_note": "Buffer free plan: 10 queued posts per channel. 5 days = 5 Shorts + at most 5 release posts.",
+ "tiktok_caption_replace": [
+  [
+   "Watch the full video on our YouTube channel: Paper Friends (link in bio)",
+   "Watch the full video on YouTube: @paperfriendssongs"
+  ],
+  [
+   "Full song on YouTube: Paper Friends (link in bio)",
+   "Full song on YouTube: @paperfriendssongs"
+  ],
+  [
+   "Find us on YouTube: Paper Friends (link in bio)",
+   "Find us on YouTube: @paperfriendssongs"
+  ]
+ ],
+ "_tiktok_note": "TikTok profile has no website field (10/11/2026), so TikTok captions name the YouTube handle instead of 'link in bio'."
 }

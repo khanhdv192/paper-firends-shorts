@@ -63,6 +63,9 @@ async function verifyVideo(p) {
 
 function durationGuessMs(p) { return p.duration_ms || 20000; }
 
+// TikTok has no clickable link in the profile: name the YouTube handle instead of "link in bio"
+const forService = (text, service) => service === "tiktok" ? (cfg.tiktok_caption_replace || []).reduce((t, [a, b]) => t.split(a).join(b), text) : text;
+
 function releaseInput(p, service, channelId) {
   const note = cfg.facebook_ai_note;                              // photo posts: no AI flag on TikTok/Facebook, so every caption says it
   const base = service === "facebook" ? p.caption_facebook : p.caption;
@@ -70,14 +73,14 @@ function releaseInput(p, service, channelId) {
     service === "instagram" ? { instagram: { type: "post", shouldShareToFeed: true, isAiGenerated: true } } :
     service === "facebook" ? { facebook: { type: "post" } } : { tiktok: { title: p.title.slice(0, 90) } };
   return {
-    text: `${base}\n\n${note}`, channelId, schedulingType: "automatic", mode: "customScheduled",
+    text: forService(`${base}\n\n${note}`, service), channelId, schedulingType: "automatic", mode: "customScheduled",
     dueAt: new Date(p.publish_at).toISOString(), assets: [{ image: { url: videoUrl(p), metadata: { altText: p.alt || p.title } } }], aiAssisted: true, metadata,
   };
 }
 
 function input(p, service, channelId) {
   if (p.kind === "release") return releaseInput(p, service, channelId);
-  const text = service === "facebook" && cfg.facebook_ai_note ? `${p.caption}\n\n${cfg.facebook_ai_note}` : p.caption;
+  const text = forService(service === "facebook" && cfg.facebook_ai_note ? `${p.caption}\n\n${cfg.facebook_ai_note}` : p.caption, service);
   const metadata =
     service === "instagram" ? { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } :
     service === "tiktok" ? { tiktok: { isAiGenerated: true } } :
