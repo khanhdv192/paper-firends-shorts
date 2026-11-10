@@ -1,0 +1,368 @@
+{
+ "_note": "New-video posts: thumbnail image + YouTube link (never the full video). publish_at = YouTube go-live + 10 min. image pinned to media_commit + sha256.",
+ "posts": [
+  {
+   "key": "rel_launch",
+   "kind": "release",
+   "title": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶",
+   "publish_at": "2026-11-10T18:40:00+07:00",
+   "youtube": [
+    "https://youtu.be/7Jvwwh1TTYk",
+    "https://youtu.be/t0NNv75wgs4",
+    "https://youtu.be/m4RBMcMkQSM"
+   ],
+   "image": "images/PaperParty.jpg",
+   "alt": "Paper Friends dancing at the Paper Party",
+   "sha256": "4dc9a3cdb282706a6f257f64d9320879058753058c7a1b1f3ee94c75688e5e76",
+   "caption": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎉 Paper Friends is live on YouTube! Three new songs today: Paper Party!, Twinkle Twinkle Little Star and Old MacDonald Had a Farm 🎶\n\nSing along with your little one!\n▶️ Paper Party! 🎉 Dance Song for Kids: https://youtu.be/7Jvwwh1TTYk\n▶️ Twinkle Twinkle Little Star ⭐ Paper Rocket Ride: https://youtu.be/t0NNv75wgs4\n▶️ Old MacDonald Had a Farm 🚜 Tractor Ride: https://youtu.be/m4RBMcMkQSM\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_RowRowRowYourBoat",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Row, Row, Row Your Boat ⛵ River Ride",
+   "publish_at": "2026-11-11T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/VlYaKXwVzX4"
+   ],
+   "image": "images/RowRowRowYourBoat.jpg",
+   "alt": "Row, Row, Row Your Boat ⛵ River Ride thumbnail, Paper Friends",
+   "sha256": "491b91b6716fc2cf36efe24e4cddee97bf7fd0edbec198b1e1862856512516a7",
+   "caption": "🎶 New on YouTube: Row, Row, Row Your Boat ⛵ River Ride\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Row, Row, Row Your Boat ⛵ River Ride\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/VlYaKXwVzX4\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_ABCSong",
+   "kind": "release",
+   "title": "🎶 New on YouTube: ABC Song 🚂 Alphabet Train",
+   "publish_at": "2026-11-12T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/0F5b2x_0sIc"
+   ],
+   "image": "images/ABCSong.jpg",
+   "alt": "ABC Song 🚂 Alphabet Train thumbnail, Paper Friends",
+   "sha256": "b0296536f242335b3bb8753df77e04cc9c2db47e2d3097be4b49d49e5546eaa2",
+   "caption": "🎶 New on YouTube: ABC Song 🚂 Alphabet Train\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: ABC Song 🚂 Alphabet Train\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/0F5b2x_0sIc\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_OverTheRiver",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Over the River and Through the Wood 🥧 Thanksgiving Song",
+   "publish_at": "2026-11-13T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/TDC4y4FIQCA"
+   ],
+   "image": "images/OverTheRiver.jpg",
+   "alt": "Over the River and Through the Wood 🥧 Thanksgiving Song thumbnail, Paper Friends",
+   "sha256": "f242cda12c2c343910598fb2dd4a7209967a29cdc42ef387413158f40538ba0b",
+   "caption": "🎶 New on YouTube: Over the River and Through the Wood 🥧 Thanksgiving Song\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Over the River and Through the Wood 🥧 Thanksgiving Song\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/TDC4y4FIQCA\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_BaaBaaBlackSheep",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Baa, Baa, Black Sheep 🐑 Wool Hill",
+   "publish_at": "2026-11-14T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/wFT2tZTeGd4"
+   ],
+   "image": "images/BaaBaaBlackSheep.jpg",
+   "alt": "Baa, Baa, Black Sheep 🐑 Wool Hill thumbnail, Paper Friends",
+   "sha256": "88fa7b80278db41f3dfb2e77ab1dc53de63bb79cfb8c0bf6d36fc5c5d8906b49",
+   "caption": "🎶 New on YouTube: Baa, Baa, Black Sheep 🐑 Wool Hill\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Baa, Baa, Black Sheep 🐑 Wool Hill\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/wFT2tZTeGd4\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_ThankYouLittleLeaf",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Thank You, Little Leaf 🍂 Thankful Song for Kids",
+   "publish_at": "2026-11-15T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/RyIxbChw9Yw"
+   ],
+   "image": "images/ThankYouLittleLeaf.jpg",
+   "alt": "Thank You, Little Leaf 🍂 Thankful Song for Kids thumbnail, Paper Friends",
+   "sha256": "08bbd3084ed7db054cd3da090212fc73a692d5ca36259c02c341ebb04a952624",
+   "caption": "🎶 New on YouTube: Thank You, Little Leaf 🍂 Thankful Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Thank You, Little Leaf 🍂 Thankful Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/RyIxbChw9Yw\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_MaryHadALittleLamb",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Mary Had a Little Lamb 🐑 Lamb at School",
+   "publish_at": "2026-11-16T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/HgR6HTtXg4s"
+   ],
+   "image": "images/MaryHadALittleLamb.jpg",
+   "alt": "Mary Had a Little Lamb 🐑 Lamb at School thumbnail, Paper Friends",
+   "sha256": "2040ddca36ab6683fa95d99f554ff66488dc332d8f24aa76636fd2a6b71f7137",
+   "caption": "🎶 New on YouTube: Mary Had a Little Lamb 🐑 Lamb at School\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Mary Had a Little Lamb 🐑 Lamb at School\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/HgR6HTtXg4s\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_WhoGoesHop",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Who Goes Hop? 🐰 Hop, Stomp & Quack Action Song for Kids",
+   "publish_at": "2026-11-17T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/FXlPaG1Xb5k"
+   ],
+   "image": "images/WhoGoesHop.jpg",
+   "alt": "Who Goes Hop? 🐰 Hop, Stomp & Quack Action Song for Kids thumbnail, Paper Friends",
+   "sha256": "47c197b0ec6895383a77ee8023d508db30883dda62661c253c122619458a395f",
+   "caption": "🎶 New on YouTube: Who Goes Hop? 🐰 Hop, Stomp & Quack Action Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Who Goes Hop? 🐰 Hop, Stomp & Quack Action Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/FXlPaG1Xb5k\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_Bingo",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Bingo 🐶 Bubble Bath",
+   "publish_at": "2026-11-19T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/sOArz4wZQAw"
+   ],
+   "image": "images/Bingo.jpg",
+   "alt": "Bingo 🐶 Bubble Bath thumbnail, Paper Friends",
+   "sha256": "f1a5911ac24da18cac7ca528cd539518ecf6b3999f9a7f7ff46f33b221facb4f",
+   "caption": "🎶 New on YouTube: Bingo 🐶 Bubble Bath\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Bingo 🐶 Bubble Bath\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/sOArz4wZQAw\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_HickoryDickoryDock",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Hickory Dickory Dock 🐭 Cuckoo Clock",
+   "publish_at": "2026-11-21T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/XD8rw2xrWdc"
+   ],
+   "image": "images/HickoryDickoryDock.jpg",
+   "alt": "Hickory Dickory Dock 🐭 Cuckoo Clock thumbnail, Paper Friends",
+   "sha256": "ffa143c611f5d2c4172fd3d2594d489d1ada5798a6c887f62bbf92823bd56f63",
+   "caption": "🎶 New on YouTube: Hickory Dickory Dock 🐭 Cuckoo Clock\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Hickory Dickory Dock 🐭 Cuckoo Clock\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/XD8rw2xrWdc\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_GoodnightPaperFriends",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Goodnight, Paper Friends 🌙 Bedtime Lullaby for Kids",
+   "publish_at": "2026-11-24T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/HC_M-OFkKQg"
+   ],
+   "image": "images/GoodnightPaperFriends.jpg",
+   "alt": "Goodnight, Paper Friends 🌙 Bedtime Lullaby for Kids thumbnail, Paper Friends",
+   "sha256": "cf98e1943b4ce24e89f6ac5298c29b12c7ac5c34f3d57c34c5323cf45949eb95",
+   "caption": "🎶 New on YouTube: Goodnight, Paper Friends 🌙 Bedtime Lullaby for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Goodnight, Paper Friends 🌙 Bedtime Lullaby for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/HC_M-OFkKQg\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_PaperCake",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Paper Cake 🎂 Clap Along Baking Song for Kids",
+   "publish_at": "2026-11-26T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/kDXVJpruuZM"
+   ],
+   "image": "images/PaperCake.jpg",
+   "alt": "Paper Cake 🎂 Clap Along Baking Song for Kids thumbnail, Paper Friends",
+   "sha256": "a191cbf12b64113077bb81b0f4f2a1c1b8b1a82c3fab024d32e32f29f5834b84",
+   "caption": "🎶 New on YouTube: Paper Cake 🎂 Clap Along Baking Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Paper Cake 🎂 Clap Along Baking Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/kDXVJpruuZM\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_PaperFriends_NurseryRhymes_1",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Paper Friends Nursery Rhymes #1 🎶 21 Minutes of Kids Songs",
+   "publish_at": "2026-11-28T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/mnzQgs7r_Ug"
+   ],
+   "image": "images/PaperFriends_NurseryRhymes_1.jpg",
+   "alt": "Paper Friends Nursery Rhymes #1 🎶 21 Minutes of Kids Songs thumbnail, Paper Friends",
+   "sha256": "a7024ee49590c9759adaff658c1e07d43f730302bdb0d0f94608d29b936101d8",
+   "caption": "🎶 New on YouTube: Paper Friends Nursery Rhymes #1 🎶 21 Minutes of Kids Songs\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Paper Friends Nursery Rhymes #1 🎶 21 Minutes of Kids Songs\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/mnzQgs7r_Ug\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_SnowStompDance",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Snow Stomp Dance ❄️ Winter Dance Song for Kids",
+   "publish_at": "2026-12-01T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/dHV3vmBGehQ"
+   ],
+   "image": "images/SnowStompDance.jpg",
+   "alt": "Snow Stomp Dance ❄️ Winter Dance Song for Kids thumbnail, Paper Friends",
+   "sha256": "915c40c04827e40524903411c1291cefc2f108c7372263a5f5965a2857d73789",
+   "caption": "🎶 New on YouTube: Snow Stomp Dance ❄️ Winter Dance Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Snow Stomp Dance ❄️ Winter Dance Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/dHV3vmBGehQ\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_PaperSleighRide",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Paper Sleigh Ride 🛷 Christmas Sleigh Song for Kids",
+   "publish_at": "2026-12-03T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/piMVDilIACk"
+   ],
+   "image": "images/PaperSleighRide.jpg",
+   "alt": "Paper Sleigh Ride 🛷 Christmas Sleigh Song for Kids thumbnail, Paper Friends",
+   "sha256": "660ad7117843ae3e4bad4bfb1718bbc7b5a5b850ccc06fd50362b90401e53494",
+   "caption": "🎶 New on YouTube: Paper Sleigh Ride 🛷 Christmas Sleigh Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Paper Sleigh Ride 🛷 Christmas Sleigh Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/piMVDilIACk\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_LittleLunasLantern",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Little Luna's Lantern 🌙 Bedtime Song for Kids",
+   "publish_at": "2026-12-05T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/JsfUhqlQ8NI"
+   ],
+   "image": "images/LittleLunasLantern.jpg",
+   "alt": "Little Luna's Lantern 🌙 Bedtime Song for Kids thumbnail, Paper Friends",
+   "sha256": "68642699a7f8d3f38fbe9b2980808e73848a6f1f85ae759903cdb92b9a475ed8",
+   "caption": "🎶 New on YouTube: Little Luna's Lantern 🌙 Bedtime Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Little Luna's Lantern 🌙 Bedtime Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/JsfUhqlQ8NI\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_PaperSnowflakes",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Paper Snowflakes ❄️ Fold, Snip & Count Winter Song for Kids",
+   "publish_at": "2026-12-08T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/01jJZVOvj10"
+   ],
+   "image": "images/PaperSnowflakes.jpg",
+   "alt": "Paper Snowflakes ❄️ Fold, Snip & Count Winter Song for Kids thumbnail, Paper Friends",
+   "sha256": "024751720b6a38662964e07c383b5235904586f7b5117b9fef42761e46879df0",
+   "caption": "🎶 New on YouTube: Paper Snowflakes ❄️ Fold, Snip & Count Winter Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Paper Snowflakes ❄️ Fold, Snip & Count Winter Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/01jJZVOvj10\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_PaperHollyParty",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Paper Holly Party 🎄 Christmas Decorating Song for Kids",
+   "publish_at": "2026-12-10T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/DOQ8qTkqrYY"
+   ],
+   "image": "images/PaperHollyParty.jpg",
+   "alt": "Paper Holly Party 🎄 Christmas Decorating Song for Kids thumbnail, Paper Friends",
+   "sha256": "844a07490f7ddc307609f21a226ee7ae01da0ddcf8285aa72c15c8cefa8734c9",
+   "caption": "🎶 New on YouTube: Paper Holly Party 🎄 Christmas Decorating Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Paper Holly Party 🎄 Christmas Decorating Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/DOQ8qTkqrYY\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  },
+  {
+   "key": "rel_HighOnTheRooftop",
+   "kind": "release",
+   "title": "🎶 New on YouTube: High on the Rooftop 🎅 Santa Christmas Song for Kids",
+   "publish_at": "2026-12-12T18:10:00+07:00",
+   "youtube": [
+    "https://youtu.be/Wdc9nm79t0A"
+   ],
+   "image": "images/HighOnTheRooftop.jpg",
+   "alt": "High on the Rooftop 🎅 Santa Christmas Song for Kids thumbnail, Paper Friends",
+   "sha256": "b21aa0030b593166d5f98f60f80f6eee225d08cf5af062633ffb51b9b2af4754",
+   "caption": "🎶 New on YouTube: High on the Rooftop 🎅 Santa Christmas Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: High on the Rooftop 🎅 Santa Christmas Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/Wdc9nm79t0A\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ]
+  }
+ ]
+}

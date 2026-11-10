@@ -7,8 +7,12 @@ import fs from "node:fs";
 
 const REPO = "khanhdv192/paper-firends-shorts";
 const ONLY = (process.env.ONLY || "").trim();
-const { posts } = JSON.parse(fs.readFileSync("posts.json", "utf8"));
-export const pinnedUrl = (p) => `https://raw.githubusercontent.com/${REPO}/${p.media_commit}/${p.video}`;
+const posts = [
+  ...JSON.parse(fs.readFileSync("posts.json", "utf8")).posts,
+  ...(fs.existsSync("releases.json") ? JSON.parse(fs.readFileSync("releases.json", "utf8")).posts : []),   // thumbnail images
+];
+const file = (p) => p.kind === "release" ? p.image : p.video;
+export const pinnedUrl = (p) => `https://raw.githubusercontent.com/${REPO}/${p.media_commit}/${file(p)}`;
 const sha = (buf) => crypto.createHash("sha256").update(buf).digest("hex");
 
 async function fetchSha(url) {
@@ -21,11 +25,11 @@ let bad = 0;
 for (const p of posts.filter((x) => !ONLY || x.key === ONLY)) {
   if (!p.sha256 || !p.media_commit) { console.log(`! ${p.key}: no sha256/media_commit recorded`); bad++; continue; }
   const pinned = await fetchSha(pinnedUrl(p));
-  const main = await fetchSha(`https://raw.githubusercontent.com/${REPO}/main/${p.video}`);
-  const local = fs.existsSync(p.video) ? sha(fs.readFileSync(p.video)) : "missing";
+  const main = await fetchSha(`https://raw.githubusercontent.com/${REPO}/main/${file(p)}`);
+  const local = fs.existsSync(file(p)) ? sha(fs.readFileSync(file(p))) : "missing";
   const ok = pinned === p.sha256 && main === p.sha256 && local === p.sha256;
   if (!ok) bad++;
   console.log(`${ok ? "ok" : "!!"} ${p.key.padEnd(20)} pinned ${pinned === p.sha256 ? "ok" : pinned.slice(0, 12)}  main ${main === p.sha256 ? "ok" : main.slice(0, 12)}  checkout ${local === p.sha256 ? "ok" : local.slice(0, 12)}`);
 }
-console.log(bad ? `${bad} video(s) do NOT match their recorded SHA-256` : "all videos match their recorded SHA-256");
+console.log(bad ? `${bad} file(s) do NOT match their recorded SHA-256` : "all videos and images match their recorded SHA-256");
 process.exit(bad ? 1 : 0);

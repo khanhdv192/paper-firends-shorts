@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "47 4 * * *"        # every day 11:47 VN, before the 19:00 posts
   push:
-    paths: ["videos/**", "posts.json"]
+    paths: ["videos/**", "images/**", "posts.json", "releases.json"]
   workflow_dispatch:
 
 permissions:

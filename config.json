@@ -1,8 +1,9 @@
 {
  "repo_raw_base": "https://raw.githubusercontent.com/khanhdv192/paper-firends-shorts/main/",
- "window_days": 7,
+ "window_days": 5,
  "min_lead_minutes": 20,
  "organization": "",
  "facebook_ai_note": "🎵 Song & animation made with AI.",
- "thumbnail_offset_fraction": 0.35
+ "thumbnail_offset_fraction": 0.35,
+ "_window_note": "Buffer free plan: 10 queued posts per channel. 5 days = 5 Shorts + at most 5 release posts."
 }
