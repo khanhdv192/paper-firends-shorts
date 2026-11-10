@@ -54,3 +54,4 @@ Mỗi khi một video dài lên YouTube, 10 phút sau có một bài trên cả 
 ## Bảo vệ nhánh main (ruleset, Khanh bật 10/11/2026)
 - Chặn force-push và chặn xoá nhánh. Vì vậy các commit đã khoá trong Buffer (`media_commit`) không bao giờ bị viết lại hay mất đi.
 - Kho public nhưng chỉ Khanh có quyền ghi. Người ngoài chỉ đọc được, không sửa được.
+- Ruleset `main` đang Active, gồm 3 luật: Restrict updates, Restrict deletions, Block force pushes. Danh sách bypass: Repository admin và app Claude (để Claude đẩy được commit khoá video). GitHub Actions không có trong bypass, nên workflow tự hẹn bài sẽ không ghi được `state/` lên main nếu sau này bật.
