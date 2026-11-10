@@ -444,6 +444,66 @@
     "facebook"
    ],
    "media_commit": "1de70c7098c83ceb75da4f412d949ceccd50df48"
+  },
+  {
+   "key": "rel_JingleBells",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Jingle Bells 🔔 Christmas Band Sing-Along for Kids",
+   "publish_at": "2026-12-15T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/e_hrDUEz03E"
+   ],
+   "image": "images/JingleBells.jpg",
+   "alt": "Jingle Bells 🔔 Christmas Band Sing-Along for Kids thumbnail, Paper Friends",
+   "sha256": "ff806e987872cb1b0b935dca7d0d93360285d9fcb962676258172b144c870bb9",
+   "caption": "🎶 New on YouTube: Jingle Bells 🔔 Christmas Band Sing-Along for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Jingle Bells 🔔 Christmas Band Sing-Along for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/e_hrDUEz03E\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "2001c2604c856a24ce83b19adbde6bcc5ef9f4bd"
+  },
+  {
+   "key": "rel_OChristmasTree",
+   "kind": "release",
+   "title": "🎶 New on YouTube: O Christmas Tree 🎄 Pop-Up Card Tree Song for Kids",
+   "publish_at": "2026-12-17T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/4rCgc02vAOk"
+   ],
+   "image": "images/OChristmasTree.jpg",
+   "alt": "O Christmas Tree 🎄 Pop-Up Card Tree Song for Kids thumbnail, Paper Friends",
+   "sha256": "4ebcf658595976e10e3e1654780cb46a4aa59308bef629b707789b141b32282b",
+   "caption": "🎶 New on YouTube: O Christmas Tree 🎄 Pop-Up Card Tree Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: O Christmas Tree 🎄 Pop-Up Card Tree Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/4rCgc02vAOk\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "2001c2604c856a24ce83b19adbde6bcc5ef9f4bd"
+  },
+  {
+   "key": "rel_DeckTheHalls",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Deck the Halls ⛸️ Fa La La Frozen Pond Party for Kids",
+   "publish_at": "2026-12-19T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/cOzRl2NlXL0"
+   ],
+   "image": "images/DeckTheHalls.jpg",
+   "alt": "Deck the Halls ⛸️ Fa La La Frozen Pond Party for Kids thumbnail, Paper Friends",
+   "sha256": "2788cd9e541bfbb4bf228e6857aca1d471d7b1d64ce082401e15fb2e865fb19a",
+   "caption": "🎶 New on YouTube: Deck the Halls ⛸️ Fa La La Frozen Pond Party for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Deck the Halls ⛸️ Fa La La Frozen Pond Party for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/cOzRl2NlXL0\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "2001c2604c856a24ce83b19adbde6bcc5ef9f4bd"
   }
  ]
 }
