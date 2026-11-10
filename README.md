@@ -55,3 +55,5 @@ Mỗi khi một video dài lên YouTube, 10 phút sau có một bài trên cả 
 - Chặn force-push và chặn xoá nhánh. Vì vậy các commit đã khoá trong Buffer (`media_commit`) không bao giờ bị viết lại hay mất đi.
 - Kho public nhưng chỉ Khanh có quyền ghi. Người ngoài chỉ đọc được, không sửa được.
 - Ruleset `main` đang Active, gồm 2 luật: Restrict deletions và Block force pushes (Restrict updates đã bỏ ngày 10/11). Danh sách bypass chỉ có Repository admin. Claude và GitHub Actions đẩy commit thường được nhờ quyền ghi, nhưng không force-push hay xoá nhánh được.
+
+- Workflow hẹn bài tối đa `max_queue_per_channel` = 10 bài chờ mỗi kênh, đếm theo `state/scheduled.json`. Bài nào sớm hơn được hẹn trước, bài còn lại để lần chạy sau (log ghi "queue full"). `BUFFER_API_KEY` có từ 10/11/2026, 3 quyền: account:read, posts:read, posts:write; hết hạn 10/11/2027.

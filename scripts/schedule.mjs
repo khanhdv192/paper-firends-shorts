@@ -113,23 +113,30 @@ async function main() {
   if (!due.length) { console.log("nothing due in the window"); return; }
   for (const p of due) { if (!fs.existsSync(mediaPath(p))) throw new Error(`missing ${mediaPath(p)}`); await verifyVideo(p); }
   const ch = MODE === "schedule" ? (await channels()).channels : [];
-  let made = 0, failed = 0;
+  let made = 0, failed = 0, deferred = 0;
+  // Buffer free plan: at most max_queue_per_channel waiting posts per channel. Every queued post was created by this repo
+  // (state/scheduled.json), so the queue is counted from state: entries whose time is still ahead.
+  const byKey = Object.fromEntries(posts.map((x) => [x.key, x]));
+  const cap = cfg.max_queue_per_channel || 10, queued = {};
+  for (const [k, v] of Object.entries(state)) for (const svc of Object.keys(v))
+    if (byKey[k] && Date.parse(byKey[k].publish_at) > now) queued[svc] = (queued[svc] || 0) + 1;
   for (const p of due) {
     for (const service of p.channels) {
       if (CHANNELS.length && !CHANNELS.includes(service)) continue;
       if (state[p.key]?.[service]) { console.log(`= ${p.key} ${service}: already scheduled (${state[p.key][service]})`); continue; }
-      if (MODE !== "schedule") { console.log(`~ ${p.key} ${service} at ${p.publish_at}  ${videoUrl(p)}`); continue; }
+      if ((queued[service] || 0) >= cap) { deferred++; console.log(`… ${p.key} ${service}: queue full (${cap}), next run`); continue; }
+      if (MODE !== "schedule") { queued[service] = (queued[service] || 0) + 1; console.log(`~ ${p.key} ${service} at ${p.publish_at}  ${videoUrl(p)}`); continue; }
       const c = ch.find((x) => x.service === service);
       if (!c) { console.log(`! ${service} channel is not connected in Buffer`); failed++; continue; }
       try {
         const res = (await gql(CREATE, { input: input(p, service, c.id) })).createPost;
-        if (res?.post) { (state[p.key] ||= {})[service] = res.post.id; made++; console.log(`+ ${p.key} ${service} ${res.post.dueAt} post ${res.post.id}`); }
+        if (res?.post) { (state[p.key] ||= {})[service] = res.post.id; made++; queued[service] = (queued[service] || 0) + 1; console.log(`+ ${p.key} ${service} ${res.post.dueAt} post ${res.post.id}`); }
         else { failed++; console.log(`! ${p.key} ${service}: ${res?.message || JSON.stringify(res)}`); }
       } catch (e) { failed++; console.log(`! ${p.key} ${service}: ${e.message}`); }
       fs.writeFileSync(STATE, JSON.stringify(state, null, 1) + "\n");
     }
   }
-  console.log(`${MODE}: ${made} created, ${failed} failed`);
+  console.log(`${MODE}: ${made} created, ${failed} failed, ${deferred} deferred (queue full)`);
   if (failed) process.exitCode = 1;
 }
 
