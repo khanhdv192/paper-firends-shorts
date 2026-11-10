@@ -106,7 +106,7 @@ async function main() {
     return;
   }
   const now = Date.now(), until = now + cfg.window_days * 864e5, lead = cfg.min_lead_minutes * 6e4;
-  const due = posts.filter((p) => (!ONLY || p.key === ONLY) && Date.parse(p.publish_at) > now + lead && (ONLY || Date.parse(p.publish_at) <= until));
+  const due = posts.filter((p) => !p.manual && (!ONLY || p.key === ONLY) && Date.parse(p.publish_at) > now + lead && (ONLY || Date.parse(p.publish_at) <= until));
   if (!due.length) { console.log("nothing due in the window"); return; }
   for (const p of due) { if (!fs.existsSync(mediaPath(p))) throw new Error(`missing ${mediaPath(p)}`); await verifyVideo(p); }
   const ch = MODE === "schedule" ? (await channels()).channels : [];
