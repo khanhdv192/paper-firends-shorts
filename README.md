@@ -41,3 +41,12 @@ Gói Buffer miễn phí cho tối đa 10 bài chờ mỗi kênh. Cửa sổ 7 ng
   - quy tắc bảo vệ nhánh `main`;
   - không cho force-push;
   - chỉ anh có quyền ghi.
+
+## Bài báo video mới (releases.json)
+
+Mỗi khi một video dài lên YouTube, 10 phút sau có một bài trên cả 3 mạng. Bài gồm ảnh thumbnail của video và link video chính thức. **Không tải nguyên video lên mạng xã hội.**
+- **Facebook:** link YouTube nằm ngay trong bài, bấm được.
+- **Instagram và TikTok:** không cho bấm link trong chú thích, nên bài ghi "link in bio". Đặt link kênh YouTube vào bio của 2 tài khoản này.
+- Ảnh nằm trong `images/`, khoá theo commit (`media_commit`) và kiểm SHA-256 giống video.
+- Mọi chú thích có dòng ghi chú AI, vì bài ảnh trên TikTok và Facebook không có công tắc AI.
+- Gói Buffer miễn phí giữ tối đa 10 bài chờ mỗi kênh, nên `window_days` = 5 (5 Short + tối đa 5 bài báo video mới).
