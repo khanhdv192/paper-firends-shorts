@@ -50,3 +50,7 @@ Mỗi khi một video dài lên YouTube, 10 phút sau có một bài trên cả 
 - Ảnh nằm trong `images/`, khoá theo commit (`media_commit`) và kiểm SHA-256 giống video.
 - Mọi chú thích có dòng ghi chú AI, vì bài ảnh trên TikTok và Facebook không có công tắc AI.
 - Gói Buffer miễn phí giữ tối đa 10 bài chờ mỗi kênh, nên `window_days` = 5 (5 Short + tối đa 5 bài báo video mới).
+
+## Bảo vệ nhánh main (ruleset, Khanh bật 10/11/2026)
+- Chặn force-push và chặn xoá nhánh. Vì vậy các commit đã khoá trong Buffer (`media_commit`) không bao giờ bị viết lại hay mất đi.
+- Kho public nhưng chỉ Khanh có quyền ghi. Người ngoài chỉ đọc được, không sửa được.
