@@ -1,0 +1,145 @@
+{
+ "_note": "Bài game trên TikTok, Instagram, Facebook (Buffer). Giờ VN (+07:00). kind=game: media là video (Reel) hoặc ảnh (bài ảnh). Chú thích riêng từng mạng, đã có dòng ghi chú AI. manual=true hoặc đã có trong state thì workflow bỏ qua.",
+ "posts": [
+  {
+   "key": "game_s01_six_games",
+   "kind": "game",
+   "manual": true,
+   "title": "6 free games (image)",
+   "publish_at": "2026-11-13T12:00:00+07:00",
+   "media": "images/community/S01.jpg",
+   "sha256": "c2fd2f639eeef73a04d04b9589f0fe9ae39608e6cce20e05dc558daa52e2c2c9",
+   "media_commit": "0815fca76e486c9b9e500f5044a5e90ec821e4ad",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "_note": "Đăng tay qua Buffer 13/11, đã lên."
+  },
+  {
+   "key": "game_s00_find",
+   "kind": "game",
+   "title": "Find the Friends · free game for little & big hands",
+   "publish_at": "2026-11-16T08:30:00+07:00",
+   "media": "videos/community/game-find.mp4",
+   "sha256": "b73f162427d38963bee65c20f7ba691523f5df6bf6e4c314971cbb37148a6d40",
+   "media_commit": "a192aa6f20e0cbeabcb230d2fdab55978559777e",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "_note": "Hẹn tay qua Buffer 13/11 (ID trong state)."
+  },
+  {
+   "key": "game_s02_find_printable",
+   "kind": "game",
+   "title": "Free printable: find the 3 Bobos",
+   "publish_at": "2026-11-20T08:30:00+07:00",
+   "media": "images/community/S02.jpg",
+   "sha256": "4fac77670e3d238ef14c307dca62be72a93b694a4e82f99ba16d89db64410753",
+   "media_commit": "0815fca76e486c9b9e500f5044a5e90ec821e4ad",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "alt": "Free printable seek-and-find page beside a phone showing the Find the Friends game colouring in.",
+   "caption_facebook": "Where are the 3 Bobos? 🐻🐻🐻\nHere's a free print-and-colour page for quiet time: find the three bears, then colour the whole picture.\n\nWant more? Find the Friends has 75 picture puzzles. In the colouring-book ones, every friend you find colours in.\n\n▶ Play free: https://apba-studio.itch.io/paper-friends-find-the-friends\n\nGame made with AI assistance.",
+   "caption_instagram": "Where are the 3 Bobos? 🐻🐻🐻\nHere's a free print-and-colour page for quiet time: find the three bears, then colour the whole picture.\n\nWant more? Find the Friends has 75 picture puzzles. In the colouring-book ones, every friend you find colours in.\n\n▶ Free to play: link in bio (\"Free games\")\nGame made with AI assistance.\n\n#preschoolactivities #toddleractivities #learningthroughplay #kidsgames #familygamenight #homeschoolpreschool",
+   "caption_tiktok": "Where are the 3 Bobos? 🐻🐻🐻\nHere's a free print-and-colour page for quiet time: find the three bears, then colour the whole picture.\n\nWant more? Find the Friends has 75 picture puzzles. In the colouring-book ones, every friend you find colours in.\n\nFree on itch.io (search \"Paper Friends\")\nYouTube: @paperfriendssongs\nGame made with AI assistance.\n\n#preschoolactivities #learningthroughplay #momtok #kidsgames #familygames"
+  },
+  {
+   "key": "game_v01_promo",
+   "kind": "game",
+   "title": "6 free Paper Friends games",
+   "publish_at": "2026-11-23T08:30:00+07:00",
+   "media": "videos/community/six-games-promo.mp4",
+   "sha256": "a3e493e42cdf2af589c9379e7bafcd85f5d0b0f378490af91b7590e471f54ef2",
+   "media_commit": "98c3c37dceed413eb98d84874d01e1b219fe17f8",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "_note": "Hẹn tay qua Buffer 13/11 (ID trong state)."
+  },
+  {
+   "key": "game_s04_lily",
+   "kind": "game",
+   "title": "Hop's Lily Pads · free game for little & big hands",
+   "publish_at": "2026-11-27T08:30:00+07:00",
+   "media": "videos/community/game-lily.mp4",
+   "sha256": "7c8d1c29d64631cb31c0327ee231746136d981097a967f42ac9d292bd7972a4c",
+   "media_commit": "a192aa6f20e0cbeabcb230d2fdab55978559777e",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "video_title": "Hop's Lily Pads · free game for little & big hands",
+   "thumbnail_offset_ms": 5200,
+   "caption_facebook": "Long weekend at home? Here's a puzzle for the whole family 🐸\nEvery lily pad Hop leaves sinks. Kids just hop to their friend. Grown-ups have to pick every flower first without getting stuck.\nPlan before you jump!\n\n▶ Play free: https://apba-studio.itch.io/paper-friends-lily-pads\n\nGame made with AI assistance.",
+   "caption_instagram": "Long weekend at home? Here's a puzzle for the whole family 🐸\nEvery lily pad Hop leaves sinks. Kids just hop to their friend. Grown-ups have to pick every flower first without getting stuck.\nPlan before you jump!\n\n▶ Free to play: link in bio (\"Free games\")\nGame made with AI assistance.\n\n#preschoolactivities #toddleractivities #learningthroughplay #kidsgames #familygamenight #homeschoolpreschool",
+   "caption_tiktok": "Long weekend at home? Here's a puzzle for the whole family 🐸\nEvery lily pad Hop leaves sinks. Kids just hop to their friend. Grown-ups have to pick every flower first without getting stuck.\nPlan before you jump!\n\nFree on itch.io (search \"Paper Friends\")\nYouTube: @paperfriendssongs\nGame made with AI assistance.\n\n#preschoolactivities #learningthroughplay #momtok #kidsgames #familygames"
+  },
+  {
+   "key": "game_s05_pattern",
+   "kind": "game",
+   "title": "Luna's Star Pattern · free game for little & big hands",
+   "publish_at": "2026-11-30T08:30:00+07:00",
+   "media": "videos/community/game-pattern.mp4",
+   "sha256": "83203650378211293be96c7efe5ac03b5e9ba89672fa73fee170cc1d1615fdff",
+   "media_commit": "a192aa6f20e0cbeabcb230d2fdab55978559777e",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "video_title": "Luna's Star Pattern · free game for little & big hands",
+   "thumbnail_offset_ms": 4600,
+   "caption_facebook": "Star, moon, star, moon… what comes next? 🌙⭐\nLuna's Star Pattern starts with simple patterns for little ones and grows into shape grids for grown-ups. Every row and column holds each shape once, like a mini sudoku with no numbers.\n\n▶ Play free: https://apba-studio.itch.io/paper-friends-lunas-star-pattern\n\nGame made with AI assistance.",
+   "caption_instagram": "Star, moon, star, moon… what comes next? 🌙⭐\nLuna's Star Pattern starts with simple patterns for little ones and grows into shape grids for grown-ups. Every row and column holds each shape once, like a mini sudoku with no numbers.\n\n▶ Free to play: link in bio (\"Free games\")\nGame made with AI assistance.\n\n#preschoolactivities #toddleractivities #learningthroughplay #kidsgames #familygamenight #homeschoolpreschool",
+   "caption_tiktok": "Star, moon, star, moon… what comes next? 🌙⭐\nLuna's Star Pattern starts with simple patterns for little ones and grows into shape grids for grown-ups. Every row and column holds each shape once, like a mini sudoku with no numbers.\n\nFree on itch.io (search \"Paper Friends\")\nYouTube: @paperfriendssongs\nGame made with AI assistance.\n\n#preschoolactivities #learningthroughplay #momtok #kidsgames #familygames"
+  },
+  {
+   "key": "game_s06_shapes",
+   "kind": "game",
+   "title": "Dot's Shape Picture · free game for little & big hands",
+   "publish_at": "2026-12-04T08:30:00+07:00",
+   "media": "videos/community/game-shapes.mp4",
+   "sha256": "329212d1886f954d929d1c6a98c06f5c2e7cbb235c7f7f0231ea735cf08615a9",
+   "media_commit": "a192aa6f20e0cbeabcb230d2fdab55978559777e",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "video_title": "Dot's Shape Picture · free game for little & big hands",
+   "thumbnail_offset_ms": 5000,
+   "caption_facebook": "Squares, triangles and a little imagination 🔺🟦\nIn Dot's Shape Picture, kids drag shapes into their outlined spots and hear each name. Big hands only get a shadow, like a tangram.\n21 things to build: a house, a boat, a fish, a castle…\n\n▶ Play free: https://apba-studio.itch.io/paper-friends-dots-shape-picture\n\nGame made with AI assistance.",
+   "caption_instagram": "Squares, triangles and a little imagination 🔺🟦\nIn Dot's Shape Picture, kids drag shapes into their outlined spots and hear each name. Big hands only get a shadow, like a tangram.\n21 things to build: a house, a boat, a fish, a castle…\n\n▶ Free to play: link in bio (\"Free games\")\nGame made with AI assistance.\n\n#preschoolactivities #toddleractivities #learningthroughplay #kidsgames #familygamenight #homeschoolpreschool",
+   "caption_tiktok": "Squares, triangles and a little imagination 🔺🟦\nIn Dot's Shape Picture, kids drag shapes into their outlined spots and hear each name. Big hands only get a shadow, like a tangram.\n21 things to build: a house, a boat, a fish, a castle…\n\nFree on itch.io (search \"Paper Friends\")\nYouTube: @paperfriendssongs\nGame made with AI assistance.\n\n#preschoolactivities #learningthroughplay #momtok #kidsgames #familygames"
+  },
+  {
+   "key": "game_s08_fold",
+   "kind": "game",
+   "title": "Paper Fold · free game for little & big hands",
+   "publish_at": "2026-12-11T08:30:00+07:00",
+   "media": "videos/community/game-fold.mp4",
+   "sha256": "7ec8fee0a453d6ca61d7cb224e0b8c87710137dbfb4f009af040c5c806811277",
+   "media_commit": "a192aa6f20e0cbeabcb230d2fdab55978559777e",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "video_title": "Paper Fold · free game for little & big hands",
+   "thumbnail_offset_ms": 4800,
+   "caption_facebook": "Fold first, then snip ✂️❄️\nPaper Fold is a folding puzzle: fold two-sided paper to match each friend's card.\nThen grab real paper and make snowflakes together with our Paper Snowflakes song.\n\n▶ Play free: https://apba-studio.itch.io/paper-friends-paper-fold\n🎵 Paper Snowflakes song: https://youtu.be/01jJZVOvj10\n\nGame made with AI assistance.",
+   "caption_instagram": "Fold first, then snip ✂️❄️\nPaper Fold is a folding puzzle: fold two-sided paper to match each friend's card.\nThen grab real paper and make snowflakes together with our Paper Snowflakes song.\n\n▶ Free to play: link in bio (\"Free games\")\n🎵 Paper Snowflakes song on YouTube: Paper Friends\nGame made with AI assistance.\n\n#preschoolactivities #toddleractivities #learningthroughplay #kidsgames #familygamenight #homeschoolpreschool",
+   "caption_tiktok": "Fold first, then snip ✂️❄️\nPaper Fold is a folding puzzle: fold two-sided paper to match each friend's card.\nThen grab real paper and make snowflakes together with our Paper Snowflakes song.\n\nFree on itch.io (search \"Paper Friends\")\nYouTube: @paperfriendssongs\nGame made with AI assistance.\n\n#preschoolactivities #learningthroughplay #momtok #kidsgames #familygames"
+  }
+ ]
+}

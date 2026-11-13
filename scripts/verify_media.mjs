@@ -10,8 +10,9 @@ const ONLY = (process.env.ONLY || "").trim();
 const posts = [
   ...JSON.parse(fs.readFileSync("posts.json", "utf8")).posts,
   ...(fs.existsSync("releases.json") ? JSON.parse(fs.readFileSync("releases.json", "utf8")).posts : []),   // thumbnail images
+  ...(fs.existsSync("community.json") ? JSON.parse(fs.readFileSync("community.json", "utf8")).posts : []), // game posts
 ];
-const file = (p) => p.kind === "release" ? p.image : p.video;
+const file = (p) => p.kind === "release" ? p.image : p.kind === "game" ? p.media : p.video;
 export const pinnedUrl = (p) => `https://raw.githubusercontent.com/${REPO}/${p.media_commit}/${file(p)}`;
 const sha = (buf) => crypto.createHash("sha256").update(buf).digest("hex");
 

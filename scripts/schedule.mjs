@@ -23,6 +23,7 @@ const cfg = JSON.parse(fs.readFileSync("config.json", "utf8"));
 const posts = [
   ...JSON.parse(fs.readFileSync("posts.json", "utf8")).posts,
   ...(fs.existsSync("releases.json") ? JSON.parse(fs.readFileSync("releases.json", "utf8")).posts : []),
+  ...(fs.existsSync("community.json") ? JSON.parse(fs.readFileSync("community.json", "utf8")).posts : []),
 ].sort((a, b) => Date.parse(a.publish_at) - Date.parse(b.publish_at));
 const STATE = "state/scheduled.json";
 const state = JSON.parse(fs.readFileSync(STATE, "utf8"));
@@ -50,7 +51,7 @@ async function channels() {
 
 // Pinned to the commit recorded in posts.json (media_commit): that URL can never serve different bytes. Before a post is
 // created the file is downloaded and checked against its recorded sha256.
-const mediaPath = (p) => p.kind === "release" ? p.image : p.video;
+const mediaPath = (p) => p.kind === "release" ? p.image : p.kind === "game" ? p.media : p.video;
 function videoUrl(p) {
   if (!p.media_commit || !p.sha256) throw new Error(`${p.key}: media_commit / sha256 missing`);
   return `https://raw.githubusercontent.com/khanhdv192/paper-firends-shorts/${p.media_commit}/${mediaPath(p)}`;
@@ -78,8 +79,29 @@ function releaseInput(p, service, channelId) {
   };
 }
 
+// community.json game posts: captions are written per network (each already carries its AI note);
+// media is a video (posted as a Reel) or an image (photo post).
+function gameInput(p, service, channelId) {
+  const text = p[`caption_${service}`];
+  if (!text) throw new Error(`${p.key}: caption_${service} missing`);
+  const isVideo = p.media.endsWith(".mp4");
+  const metadata = isVideo
+    ? (service === "instagram" ? { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } :
+       service === "tiktok" ? { tiktok: { isAiGenerated: true, title: p.title.slice(0, 90) } } : { facebook: { type: "reel" } })
+    : (service === "instagram" ? { instagram: { type: "post", shouldShareToFeed: true, isAiGenerated: true } } :
+       service === "tiktok" ? { tiktok: { title: p.title.slice(0, 90) } } : { facebook: { type: "post" } });
+  let asset;
+  if (isVideo) {
+    asset = { video: { url: videoUrl(p), metadata: { title: p.video_title || p.title } } };
+    if (service !== "facebook" && p.thumbnail_offset_ms != null) asset.video.metadata.thumbnailOffset = p.thumbnail_offset_ms;
+  } else asset = { image: { url: videoUrl(p), metadata: { altText: p.alt || p.title } } };
+  return { text, channelId, schedulingType: "automatic", mode: "customScheduled",
+    dueAt: new Date(p.publish_at).toISOString(), assets: [asset], aiAssisted: true, metadata };
+}
+
 function input(p, service, channelId) {
   if (p.kind === "release") return releaseInput(p, service, channelId);
+  if (p.kind === "game") return gameInput(p, service, channelId);
   const text = forService(service === "facebook" && cfg.facebook_ai_note ? `${p.caption}\n\n${cfg.facebook_ai_note}` : p.caption, service);
   const metadata =
     service === "instagram" ? { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } :
