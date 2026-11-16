@@ -644,6 +644,66 @@
     "facebook"
    ],
    "media_commit": "767cce0a42307bda04c8edddad501249c27f5303"
+  },
+  {
+   "key": "rel_TheTwelveDaysOfChristmas",
+   "kind": "release",
+   "title": "🎶 New on YouTube: The Twelve Days of Christmas 🎁 Counting Song for Kids",
+   "publish_at": "2026-12-29T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/xGDmEX3GbcI"
+   ],
+   "image": "images/TheTwelveDaysOfChristmas.jpg",
+   "alt": "The Twelve Days of Christmas 🎁 Counting Song for Kids thumbnail, Paper Friends",
+   "sha256": "f64946d8c7e9ca836de0f529ea8060ff01e8958a0c770a8081aabdf296324580",
+   "caption": "🎶 New on YouTube: The Twelve Days of Christmas 🎁 Counting Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: The Twelve Days of Christmas 🎁 Counting Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/xGDmEX3GbcI\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "c9783274f3973915aa230abc0e25599a84ce5598"
+  },
+  {
+   "key": "rel_AuldLangSyne",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Auld Lang Syne 🎆 New Year Countdown Song for Kids",
+   "publish_at": "2026-12-31T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/374nUrt_-WA"
+   ],
+   "image": "images/AuldLangSyne.jpg",
+   "alt": "Auld Lang Syne 🎆 New Year Countdown Song for Kids thumbnail, Paper Friends",
+   "sha256": "15c3571f7926a34bceb6a169d2498d4f22b1bd2c96238f72439b3bc97a760cf5",
+   "caption": "🎶 New on YouTube: Auld Lang Syne 🎆 New Year Countdown Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Auld Lang Syne 🎆 New Year Countdown Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/374nUrt_-WA\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "c9783274f3973915aa230abc0e25599a84ce5598"
+  },
+  {
+   "key": "rel_PopGoesTheWeasel",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Pop! Goes the Weasel 🎉 New Year Party Song for Kids",
+   "publish_at": "2027-01-01T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/rbJaAEzmmeI"
+   ],
+   "image": "images/PopGoesTheWeasel.jpg",
+   "alt": "Pop! Goes the Weasel 🎉 New Year Party Song for Kids thumbnail, Paper Friends",
+   "sha256": "576c6cf36c69538cee93497c9d1043559b0b021d2b6e56495fb10a1c33343310",
+   "caption": "🎶 New on YouTube: Pop! Goes the Weasel 🎉 New Year Party Song for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Pop! Goes the Weasel 🎉 New Year Party Song for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/rbJaAEzmmeI\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "c9783274f3973915aa230abc0e25599a84ce5598"
   }
  ]
 }
