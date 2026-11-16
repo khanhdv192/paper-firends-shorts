@@ -43,5 +43,11 @@ jobs:
           if ! git diff --quiet state/; then
             git config user.name "paper-friends-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add state/ && git commit -m "Scheduled posts: update state" && git push
+            git add state/ && git commit -m "Scheduled posts: update state"
+            # Someone may have pushed while this run was scheduling (16/11: run 43828164094 lost its state that way).
+            # Rebase the state commit on top and retry, so the post IDs are never dropped.
+            for i in 1 2 3 4 5; do
+              git pull --rebase -q origin main && git push && break
+              sleep $((i * 5))
+            done
           fi
