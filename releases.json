@@ -844,6 +844,46 @@
     "facebook"
    ],
    "media_commit": "53c1cfe9b3b46b04ef5cb8843397b403cbdd5961"
+  },
+  {
+   "key": "rel_PatACake",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Pat-a-Cake 🎂 Guess Whose Cake! Nursery Rhyme for Kids",
+   "publish_at": "2027-01-14T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/T7n4TqR9Y2Y"
+   ],
+   "image": "images/PatACake.jpg",
+   "alt": "Pat-a-Cake 🎂 Guess Whose Cake! Nursery Rhyme for Kids thumbnail, Paper Friends",
+   "sha256": "4c525f5409596554ae92dab69f05329094535e90fe8670ac2693e010f3911f7c",
+   "caption": "🎶 New on YouTube: Pat-a-Cake 🎂 Guess Whose Cake! Nursery Rhyme for Kids\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Pat-a-Cake 🎂 Guess Whose Cake! Nursery Rhyme for Kids\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/T7n4TqR9Y2Y\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "9b93271e68f02d29a61eac572e248c8ce2672c08"
+  },
+  {
+   "key": "rel_PollyPutTheKettleOn",
+   "kind": "release",
+   "title": "🎶 New on YouTube: Polly Put the Kettle On ☕ Tea Party Pop-up Book",
+   "publish_at": "2027-01-21T18:00:00+07:00",
+   "youtube": [
+    "https://youtu.be/bkRknRkazHM"
+   ],
+   "image": "images/PollyPutTheKettleOn.jpg",
+   "alt": "Polly Put the Kettle On ☕ Tea Party Pop-up Book thumbnail, Paper Friends",
+   "sha256": "4291eac78acd1d12297a23a84a5da6eb60cdcee4b48931e614847a7a01ffe82a",
+   "caption": "🎶 New on YouTube: Polly Put the Kettle On ☕ Tea Party Pop-up Book\n\nSing along with your little one! Watch the full video on our YouTube channel: Paper Friends (link in bio) ▶️\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "caption_facebook": "🎶 New on YouTube: Polly Put the Kettle On ☕ Tea Party Pop-up Book\n\nSing along with your little one!\n▶️ Watch the full video: https://youtu.be/bkRknRkazHM\n\n#kidssongs #nurseryrhymes #toddlersongs #singalong #preschool #paperfriends",
+   "channels": [
+    "tiktok",
+    "instagram",
+    "facebook"
+   ],
+   "media_commit": "9b93271e68f02d29a61eac572e248c8ce2672c08"
   }
  ]
 }
