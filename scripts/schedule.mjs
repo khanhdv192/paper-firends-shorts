@@ -107,6 +107,9 @@ function input(p, service, channelId) {
     service === "instagram" ? { instagram: { type: "reel", shouldShareToFeed: true, isAiGenerated: true } } :
     service === "tiktok" ? { tiktok: { isAiGenerated: true } } :
     service === "facebook" ? { facebook: { type: "reel" } } : undefined;
+  // Opt-in (new Shorts from 20/11/2026): the page posts p.first_comment (YouTube link to the full song) as the first
+  // comment on Facebook and Instagram. Buffer cannot pin it; TikTok has no first comment through Buffer.
+  if (p.first_comment && (service === "facebook" || service === "instagram")) metadata[service].firstComment = p.first_comment;
   const video = { url: videoUrl(p), metadata: { title: p.video_title || p.title } };  // title = Facebook "Reel Title"
   if (service !== "facebook") video.metadata.thumbnailOffset = ( p.thumbnail_offset_ms ?? Math.round(durationGuessMs(p) * (cfg.thumbnail_offset_fraction ?? 0.35)));
   return {
@@ -147,7 +150,8 @@ async function main() {
       if (CHANNELS.length && !CHANNELS.includes(service)) continue;
       if (state[p.key]?.[service]) { console.log(`= ${p.key} ${service}: already scheduled (${state[p.key][service]})`); continue; }
       if ((queued[service] || 0) >= cap) { deferred++; console.log(`… ${p.key} ${service}: queue full (${cap}), next run`); continue; }
-      if (MODE !== "schedule") { queued[service] = (queued[service] || 0) + 1; console.log(`~ ${p.key} ${service} at ${p.publish_at}  ${videoUrl(p)}`); continue; }
+      if (MODE !== "schedule") { queued[service] = (queued[service] || 0) + 1; const fc = input(p, service, "0".repeat(24)).metadata?.[service]?.firstComment;
+        console.log(`~ ${p.key} ${service} at ${p.publish_at}  ${videoUrl(p)}${fc ? `\n    first comment: ${fc.replace(/\n/g, " / ")}` : ""}`); continue; }
       const c = ch.find((x) => x.service === service);
       if (!c) { console.log(`! ${service} channel is not connected in Buffer`); failed++; continue; }
       try {

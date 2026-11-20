@@ -57,3 +57,16 @@ Mỗi khi một video dài lên YouTube, 10 phút sau có một bài trên cả 
 - Ruleset `main` đang Active, gồm 2 luật: Restrict deletions và Block force pushes (Restrict updates đã bỏ ngày 10/11). Danh sách bypass chỉ có Repository admin. Claude và GitHub Actions đẩy commit thường được nhờ quyền ghi, nhưng không force-push hay xoá nhánh được.
 
 - Workflow hẹn bài tối đa `max_queue_per_channel` = 10 bài chờ mỗi kênh, đếm theo `state/scheduled.json`. Bài nào sớm hơn được hẹn trước, bài còn lại để lần chạy sau (log ghi "queue full"). `BUFFER_API_KEY` có từ 10/11/2026, 3 quyền: account:read, posts:read, posts:write; hết hạn 10/11/2027.
+
+## First comment with the YouTube link (new Shorts from 20/11/2026)
+
+Add `"first_comment"` to a Short in `posts.json` and the Paper Friends page posts it as the first comment on the
+Facebook Reel and the Instagram Reel, for example:
+
+    "first_comment": "🎶 Watch the full song on YouTube: https://youtu.be/<VIDEO_ID>"
+
+- Opt-in per Short: Shorts without the field are posted exactly as before (existing Reels are not changed).
+- Buffer cannot pin a comment. To pin it, open the Reel in the Facebook or Instagram app → the comment → Pin.
+- TikTok: Buffer has no first comment for TikTok, and links in TikTok comments are not clickable, so TikTok keeps the
+  caption line with the YouTube handle.
+- `MODE=dry-run` prints the first comment under each post that has one.
